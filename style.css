@@ -1,0 +1,57 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    border: solid;
+    align-items: center;
+}
+
+.questao {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.questao:hover{
+    background-color: #2978FF;
+}
+
+.resposta:hover{
+    background-color: #1DDDBD;
+}
+
+.resposta {
+    width: 50%;
+    border-radius: 10px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+p,li{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #CFD0D4;
+}
